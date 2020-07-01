@@ -108,3 +108,11 @@
 .footer {
     box-shadow: var(--box-shadow-top);
 }
+
+.navbar-brand img {
+  max-height: 5rem;
+}
+
+.footer img {
+  max-height: 10rem;
+}

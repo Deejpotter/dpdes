@@ -1,5 +1,5 @@
 	<!-- Main footer for every page -->
-	<footer class="footer has-background-primary has-text-light has-text-centered">
+	<footer class="footer has-background-light has-text-black">
 		<div class="container">
 			<div class="columns">
 				<div class="column">
@@ -9,7 +9,7 @@
 				</div>
 				<div class="column">
 					<h3 class="is-size-4">Subtitle</h3>
-					<p class="is-size-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae laboriosam voluptatum quasi, reiciendis culpa nobis tempore enim velit eveniet iure eum illo quam maiores quo delectus assumenda aliquam distinctio nostrum?</p>
+					<p class="is-size-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae laboriosam voluptatum quasi, reiciendis culpa nobis tempore enim velit eveniet iure eum illo quam maiores quo delectus assumenda aliquam distinctio nostrum?</p>
 				</div>
 			</div>
 		</div>
