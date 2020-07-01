@@ -9,7 +9,7 @@
 	include "templates/home-hero.php"
  -->
 
- <section class="hero has-background-<?php echo $bgColour ?> has-text-<?php echo $textColour ?> is-medium has-text-centered <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
+ <section class="hero has-background-<?php echo $bgColour ?> has-text-<?php echo $textColour ?> is-large has-text-centered <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-<?php echo $textColour ?> is-size-1"><?php echo $sectionH1 ?></h1>

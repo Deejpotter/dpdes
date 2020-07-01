@@ -1,4 +1,7 @@
-/* cd into bulma-start then run npm start and these changes will be updated */
+/*==========
+TEMPLATE
+==========*/
+
 
 @charset "utf-8";
 
@@ -13,9 +16,9 @@
 
 // Colors
 
-$black:        hsl(343, 20%, 3%);
-$black-bis:    hsl(343, 20%, 7%);
-$black-ter:    hsl(343, 20%, 14%);
+$black:        hsl(240, 17%, 8%);
+$black-bis:    hsl(240, 17%, 16%);
+$black-ter:    hsl(240, 17%, 24%);
 
 // $grey-darker:  hsl(0, 0%, 21%) !default
 // $grey-dark:    hsl(0, 0%, 29%) !default
@@ -24,25 +27,23 @@ $black-ter:    hsl(343, 20%, 14%);
 // $grey-lighter: hsl(0, 0%, 86%) !default
 // $grey-lightest: hsl(0, 0%, 93%) !default
 
-$white-ter:    hsl(346, 81%, 92%);
-$white-bis:    hsl(346, 81%, 94%);
-$white:        hsl(346, 81%, 96%);
-
-$pink:          hsl(346, 84%, 61%);
+// $white-ter:    hsl(0, 0%, 96%) !default
+// $white-bis:    hsl(0, 0%, 98%) !default
+$white:        #F4EFF2;
 
 // $orange:       hsl(14,  100%, 53%) !default
-$yellow:       #f98121;
-$green:        #7b9159;
+$yellow:       #bea41e;
+$green:        hsl(145, 67%, 45%);
 // $turquoise:    hsl(171, 100%, 41%) !default
-$cyan:         #84DCCF;
+$cyan:         #59B7CC;
 // $blue:         hsl(217, 71%,  53%) !default
-// $purple:       hsl(271, 100%, 71%) !default
+$purple:       #684E5A;
 $red:          #f44336;
 
 // Typography
 
-$family-sans-serif: 'Balsamiq Sans', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-$family-display: 'Emilys Candy', 'Balsamiq Sans', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-sans-serif: "Nunito", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-display: "Fredoka One", "Nunito", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 // $family-monospace: monospace !default
 // $render-mode: optimizeLegibility !default
 
@@ -95,14 +96,14 @@ $size-5: 1.3rem;
 
 
 
-$primary: $pink;
+$primary: $green;
 
-$info: $cyan;
-// $success: $green !default
+$info: $purple;
+$success: $cyan;
 // $warning: $yellow !default
 // $danger: $red !default
 
-// $light: $white-ter !default
+$light: $white;
 // $dark: $grey-darker !default
 
 // Invert colors
@@ -136,14 +137,14 @@ $info: $cyan;
 
 // General colors
 
-// $scheme-main: $light;
+// $scheme-main: $white !default
 // $scheme-main-bis: $white-bis !default
 // $scheme-main-ter: $white-ter !default
 // $scheme-invert: $black !default
 // $scheme-invert-bis: $black-bis !default
 // $scheme-invert-ter: $black-ter !default
 
-// $background: $black-bis;
+$background: $white;
 
 // $border: $grey-lighter !default
 // $border-hover: $grey-light !default
@@ -154,7 +155,7 @@ $info: $cyan;
 
 $text: $black;
 // $text-invert: findColorInvert($text) !default
-// $text-light: $grey !default
+$text-light: $white;
 // $text-strong: $grey-darker !default
 
 // Code colors
@@ -167,7 +168,7 @@ $text: $black;
 
 // Link colors
 
-// $link: $blue !default
+$link: $info;
 // $link-invert: findColorInvert($link) !default
 // $link-light: findLightColor($link) !default
 // $link-dark: findDarkColor($link) !default
@@ -204,6 +205,16 @@ $family-secondary: $family-display;
 
 
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: $family-display;
+    $body-weight: $weight-normal;
+}
 
 // $body-background-color: $scheme-main;
 // $body-size: 16px;
@@ -274,17 +285,6 @@ $family-secondary: $family-display;
 //   font-size: $body-font-size
 //   font-weight: $body-weight
 //   line-height: $body-line-height
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-    font-family: $family-display
-}
-    
 
 // // Inline
 
