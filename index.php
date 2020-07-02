@@ -18,25 +18,25 @@ include "templates/header.php"
 	<section class="section">
 		<div class="container">
 			<h2 class="is-size-3">My other sites</h2>
-			<p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facere soluta explicabo aut ad esse. Architecto nam in iusto ex impedit, qui, nostrum nesciunt sed placeat vero cupiditate ab debitis!</p>
+			<p class="is-size-5">I set this website up to store temporary or free websites on sub domains so there is not much to see here. If you are interested in me or my work visit one of my websites below.</p>
 		</div>
 		<hr>
 		<div class="columns is-centered has-background-success shadow-radius">
 			<div class="column has-text-centered is-one-third">
-				<a href="http://deejpotter.com"><h3 class="is-size-4">Deej Potter</h3></a>
 				<figure class="image is-3by2 is-480x320">
-					<img src="https://bulma.io/images/placeholders/480x320.png" class="shadow-radius">
+					<img src="<?php echo $fileLevel ?>images/deejpotterdesignsScreenshot.png" class="shadow-radius">
 				</figure>
-				<p class="is-size-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque placeat, sed, doloremque nobis veniam ipsa iure eum, natus beatae sequi non! Rerum tenetur ducimus in placeat suscipit quibusdam, molestias dolorum.</p>
+				<a href="http://deejpotterdesigns.com"><h3 class="is-size-4">Deej Potter Designs</h3></a>
+				<p class="is-size-5">Deej Potter Designs is my web design business. You can find information about web design and contact me if you like what you see and want your own website.</p>
 			</div>
 			<div class="column is-1">
 			</div>
 			<div class="column has-text-centered is-one-third">
-				<a href="http://deejpotterdesigns.com"><h3 class="is-size-4">Deej Potter Designs</h3></a>
 				<figure class="image is-3by2 is-480x320">
-					<img src="https://bulma.io/images/placeholders/480x320.png" class="shadow-radius">
+					<img src="<?php echo $fileLevel ?>images/deejpotterScreenshot.png" class="shadow-radius">
 				</figure>
-				<p class="is-size-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque placeat, sed, doloremque nobis veniam ipsa iure eum, natus beatae sequi non! Rerum tenetur ducimus in placeat suscipit quibusdam, molestias dolorum.</p>
+				<a href="http://deejpotter.com"><h3 class="is-size-4">Deej Potter</h3></a>
+				<p class="is-size-5">This is my personal website. You will find information about me and more technical stuff about web design and my personal projects.</p>
 			</div>
 		</div>
 	</section>
@@ -45,7 +45,7 @@ include "templates/header.php"
 	<section id="contact" class="section is-medium has-text-centered">
 		<div class="container">
 			<h2 class="is-size-3">Want your own site?</h2>
-			<p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facere soluta explicabo aut ad esse. Architecto nam in iusto ex impedit, qui, nostrum nesciunt sed placeat vero cupiditate ab debitis!</p>
+			<p class="is-size-5">Follow the button below to contact me and you could have your own website as soon as next week!</p>
 			<a href="https://deejpotterdesigns.com/contact" class="button is-primary shadow-radius">Contact me here</a>
 		</div>
 	</section>

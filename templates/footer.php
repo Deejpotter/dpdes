@@ -8,8 +8,8 @@
 					</a>
 				</div>
 				<div class="column">
-					<h3 class="is-size-4">Subtitle</h3>
-					<p class="is-size-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae laboriosam voluptatum quasi, reiciendis culpa nobis tempore enim velit eveniet iure eum illo quam maiores quo delectus assumenda aliquam distinctio nostrum?</p>
+					<h3 class="is-size-4">About me</h3>
+					<p class="is-size-5">I'm Deej Potter. I'm a web designer as well as a husband and father. I love working with code and trying to improve my designs.</p>
 				</div>
 			</div>
 		</div>
